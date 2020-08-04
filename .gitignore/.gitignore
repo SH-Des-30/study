@@ -1,6 +1,5 @@
 dubbo-registry.properties
 target/
-**/target/
 .settings/
 /META-INF/
 !/META-INF/spring.handlers
