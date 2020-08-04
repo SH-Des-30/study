@@ -31,6 +31,13 @@ public class LockConditionDemo {
 
         Thread thread = new Thread(() -> {
 
+            //在获得锁之前先执行了signal，就会出现死锁
+//            try {
+//                Thread.sleep(3000L);
+//            } catch (InterruptedException e) {
+//                logger.error(e.getMessage(), e);
+//            }
+
             lock.lock();
 
             try {
