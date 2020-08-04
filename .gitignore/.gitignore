@@ -1,10 +1,12 @@
 dubbo-registry.properties
 target/
+**/target/
 .settings/
 /META-INF/
 !/META-INF/spring.handlers
 !/META-INF/spring.schemas
 .idea
+.idea/
 .project
 .classpath
 .mymetadata
