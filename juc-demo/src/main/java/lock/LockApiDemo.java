@@ -2,7 +2,6 @@ package lock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-import java.util.logging.Logger;
 
 /**
  * Lock 接口中api的简单运用
